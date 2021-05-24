@@ -7,22 +7,15 @@
 header {
   width: 100%;
   padding: 20px 0;
-  margin: 0 auto;
   text-align: center;
-}
-
-header .headline {
-  font-size: 20px;
-  padding: 20px auto;
 }
 
 .nav-list {
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   margin: 0 auto;
-  border: solid #848282;
-  border-top-width: 1px;
-  border-bottom-width: 1px;
+  border-top-width: 1px solid #848282;
+  border-bottom-width: 1px solid #848282;
 }
 
 .nav-list-item {
@@ -31,12 +24,11 @@ header .headline {
   margin: 0 20px;
 }
 
-.flex {
-  width: 100%;
-  height: 700px;
+.main {
+  width: 800px;
+  margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
-  font-size: 0;
 }
 
 .box1 {
