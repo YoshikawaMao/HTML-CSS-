@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding;0:
+  box-sizing:border-box;
+}
+
+header{
+  width:100%;
+  padding:30px 20px;
+  background-color: magenta;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.header-box{
+  background-color:mediumorchid;
+  flex-basis:140px;
+  height:70px;
+  margin:0 10px;
+}
+
+header>:first-child{
+  margin-right: auto;
+}
+
+main{
+  width:1000px;
+  background-color: palegreen;
+  display: flex;
+}
+
+footer{
+  width:100%;
+  padding:20px;
+  background-color: rgb(65, 139, 250);
+}
